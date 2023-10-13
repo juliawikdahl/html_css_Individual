@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <title></title>
+    
+    <script src="https://kit.fontawesome.com/124ac6c2b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html"><img src="assets/bonz.ai-logo-black-landscape.png" alt="Logotyp"></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="book.html" class="nav__link--active">Book a hotel</a></li>
+          </ul>
+        </nav>
+    </header>
+
+
+<main class="container">
+
+    <section class="image-container">
+        <img src="assets/02-night.jpg" >
+        <div class="overlay">
+            <h1 style="margin-bottom: 1rem;">Cosy Modern Rooms</h1>
+           <a href="index.html"><button>Return to home</button></a>
+        </div>
+    </section>
+
+    
+    <section class="searcher">
+        <h2>Search Rooms</h2>
+        <ul>
+            <li>
+                <label for="room-type-select">Room Types</label>
+                <select id="room-type-select">
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                    <option value="single">All Rooms</option>
+                </select>
+            </li>
+
+            <li>
+                <label for="Guests-select">Guests</label>
+                <select id="Guests-select">
+                    <option value="single">1</option>
+                    <option value="double">2</option>
+                    <option value="suite">3</option>
+                    <option value="single">4</option>
+                    <option value="single">5</option>
+                    <option value="single">6</option>
+                </select>
+            </li>
+
+            <li>
+                <label for="price-range">Price $</label>
+                <span>0</span> <input type="range" min="0" max="1000" value="50" id="price-range"><span>1000</span>
+            </li>
+
+            <li>
+                <fieldset class="checkbox-list">
+                    <legend>Facilities</legend>
+                    <div>
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">Breakfast</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">Pets Allowed</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">Parking</label>
+                    </div>
+                </fieldset> 
+          
+            </li>
+        </ul>
+    </section>
+         
+     <div class="border"></div>
+
+
+    <section class="hotel-rooms">
+        <div class="grid-withfour">
+            <article>
+                <a href="about.html">
+                  <img src="assets/04-night.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+              <article>
+                <a href="about.html">
+                  <img src="assets/05-night.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+              <article>
+                <a href="about.html">
+                  <img src="assets/08-night.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+              <article>
+                <a href="about.html">
+                  <img src="assets/08-day.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+              <article>
+                <a href="about.html">
+                  <img src="assets/07-night.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+              <article>
+                <a href="about.html">
+                  <img src="assets/03-night.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+              <article>
+                <a href="about.html">
+                  <img src="assets/02-night.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+              <article>
+                <a href="about.html">
+                  <img src="assets/01-day.jpg"/>
+                  <p>Nice comforting view</p>
+                </a>
+              </article>
+        </div>
+    </section>
+</main>
+    
+</body>
+</html>
